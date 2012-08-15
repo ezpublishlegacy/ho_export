@@ -1,0 +1,4 @@
+#header h1 a { display:inline-block; width:20%; margin-right:5%; text-align:center;}
+#nav { float:left; width:20%; }
+#main { float:right; width:75%; }
+#footer {clear: both;}
