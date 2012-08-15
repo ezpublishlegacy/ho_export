@@ -11,7 +11,7 @@
 			<h1><a id="homelink" href="../index.html"><img src={concat( "images/", $logo)|ezdesign}/></a>{$title}</h1>
 		</div>
 		<div id="nav">
-			{include uri="design:myexport/menu.tpl"}
+			{include uri="design:export/menu.tpl"}
 		</div>
 		<div id="main">
 			{node_view_gui content_node=$node view=full page_limit=99999}

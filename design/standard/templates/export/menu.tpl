@@ -3,10 +3,10 @@
 }
 <ul class="menulist">
 {foreach $nodeList as $menuNode max 1}
-	{include uri="design:myexport/menulink.tpl" link_node=$menuNode}
+	{include uri="design:export/menulink.tpl" link_node=$menuNode}
 	{foreach $menuNode.children as $subNode}
 		{if is_set($nodeList[concat('node_',$subNode)])}
-			{include uri="design:myexport/menulink.tpl" link_node=$nodeList[concat('node_',$subNode)]}
+			{include uri="design:export/menulink.tpl" link_node=$nodeList[concat('node_',$subNode)]}
 		{/if}
 	{/foreach}
 {/foreach}
